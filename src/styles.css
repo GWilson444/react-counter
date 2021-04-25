@@ -1,0 +1,26 @@
+* {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  border: 3px solid darkgray;
+  padding: 20px;
+}
+
+.display {
+  font-weight: 500;
+  margin: 10px;
+  font-size: 2em;
+}
+
+.btns button {
+  width: 30px;
+  margin: 5px;
+}
+
+.btns button:hover {
+  background-color: aqua;
+}
