@@ -17,15 +17,15 @@ export default function CounterApp() {
       <div className='display'>
         {counter}
         <div className='btns'>
-          <button onClick={counterDown}>-</button>
-          <button onClick={counterUp}>+</button>
+          <button className='btn-dwn' onClick={counterDown}>-</button>
+          <button className='btn-up' onClick={counterUp}>+</button>
         </div>
       </div>
       <div className='display'>
         {increment}
         <div className='btns'>
-          <button onClick={incrementDown}>-</button>
-          <button onClick={incrementUp}>+</button>
+          <button className='btn-dwn' onClick={incrementDown}>-</button>
+          <button className='btn-up' onClick={incrementUp}>+</button>
         </div>
       </div>
     </div>

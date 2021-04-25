@@ -21,6 +21,10 @@
   margin: 5px;
 }
 
-.btns button:hover {
-  background-color: aqua;
+.btn-dwn:hover {
+  background-color: #ff0000;
+}
+
+.btn-up:hover {
+  background-color: #00ffff;
 }
